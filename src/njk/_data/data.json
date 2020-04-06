@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "title": "The Clown",
+      "author": "Heinrich Böll",
+      "blurb": "The Clown (German: Ansichten eines Clowns, lit. \"Opinions of a clown\") is a 1963 novel by West German writer Heinrich Böll."
+    },
+    {
+      "title": "The Shipping News",
+      "author": "Annie Proulx",
+      "blurb": "The Shipping News is a novel by American author E. Annie Proulx and published by Charles Scribner's Sons in 1993. It won the Pulitzer Prize, the U.S. National Book Award, as well as other awards. It was adapted as a film of the same name which was released in 2001."
+    },
+    {
+      "title": "The Hearing Trumpet",
+      "author": "Leonora Carrington",
+      "blurb": "The Hearing Trumpet is a story by Leonora Carrington about 92-year-old Marian Leatherby, who is given the gift of a hearing trumpet only to discover that what her family is saying is that she is to be committed to an institution."
+    }
+  ]
+}

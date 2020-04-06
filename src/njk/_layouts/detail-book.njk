@@ -1,0 +1,24 @@
+{% extends '_layouts/base.njk' %}
+
+{% block page_title %}{{ book.title }}{% endblock %}
+
+{% block page_description %}{{ book.title }} by {{ book.author }}{% endblock %}
+
+{% block content %}
+<article class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      {% block info %}
+        <img src="https://placekitten.com/420/320" alt="" class="img-fluid">
+        <p>{{ book.author }}</p>
+      {% endblock %}
+    </div>
+    <div class="col-sm-8">
+      {% block blurb %}
+        <h1>{{ book.title }}</h1>
+        <p>{{ book.blurb }}</p>
+      {% endblock %}
+    </div>
+  </div>
+</article>
+{% endblock %}
