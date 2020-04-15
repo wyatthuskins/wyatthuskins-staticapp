@@ -1,0 +1,23 @@
+{% extends '_layouts/detail-entry.njk' %}
+
+{% set entry = data.entries[0] %}
+
+{% block page_title %}Blog entry {{ entry.title}} {% endblock %}
+
+{% block description %}Blog entry {{ entry.title }} {{ entry.date }} {% endblock %}
+
+{% block info %}
+         <img src="img/kraken01.jpg" alt="pirate character" class="img-fluid">
+         <p class="byline">By Crit McGillicutty<br>
+         <span>Island Breeze Tribune</span></p>
+{% endblock %}
+
+{% block story %}
+  <h1>{{ entry.title }}</h1>
+  <h5>{{ entry.date }}</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed adipiscing diam donec adipiscing tristique risus. Vitae purus faucibus ornare suspendisse sed nisi. In nibh mauris cursus mattis molestie a. Elit ut aliquam purus sit. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Tortor aliquam nulla facilisi cras. Netus et malesuada fames ac turpis egestas integer eget aliquet. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Aliquet sagittis id consectetur purus ut. Commodo ullamcorper a lacus vestibulum sed arcu non odio. A iaculis at erat pellentesque adipiscing commodo elit. Pharetra convallis posuere morbi leo urna. Aliquam id diam maecenas ultricies mi eget. Augue neque gravida in fermentum. Purus in massa tempor nec feugiat. Eget aliquet nibh praesent tristique magna. Morbi non arcu risus quis varius quam quisque id. Sed ullamcorper morbi tincidunt ornare massa eget.</p>
+
+   <p>Neque viverra justo nec ultrices dui sapien eget. Tempus egestas sed sed risus pretium. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. Laoreet suspendisse interdum consectetur libero id faucibus. Est sit amet facilisis magna etiam tempor. Euismod elementum nisi quis eleifend quam adipiscing. Amet facilisis magna etiam tempor. Amet commodo nulla facilisi nullam. Velit ut tortor pretium viverra suspendisse potenti. Malesuada nunc vel risus commodo viverra maecenas. Interdum varius sit amet mattis. Ut tristique et egestas quis ipsum suspendisse ultrices gravida. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Vel pharetra vel turpis nunc. Aliquam sem fringilla ut morbi tincidunt augue interdum. Elementum eu facilisis sed odio.</p>
+
+   <p>Erat imperdiet sed euismod nisi porta lorem. Mattis enim ut tellus elementum sagittis. Tristique nulla aliquet enim tortor. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Pretium lectus quam id leo in vitae. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Consequat semper viverra nam libero justo laoreet sit amet. Posuere ac ut consequat semper. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Nisl vel pretium lectus quam. Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Pulvinar mattis nunc sed blandit libero volutpat sed cras.</p>
+{% endblock %}

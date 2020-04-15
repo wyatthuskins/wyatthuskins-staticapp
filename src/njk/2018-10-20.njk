@@ -1,0 +1,25 @@
+{% extends '_layouts/detail-entry.njk' %}
+
+{% set entry = data.entries[2] %}
+
+{% block page_title %}{{ entry.title }}{% endblock %}
+
+{% block description %}Blog entry {{ entry.title }} {{ entry.date }}{% endblock %}
+
+{% block info %}
+         <img src="img/kraken03.jpg" alt="pirate character" class="img-fluid">
+         <p class="byline">By Crit McGillicutty<br>
+         <span>Island Breeze Tribune</span></p>
+{% endblock %}
+
+{% block story %}
+  <h1>{{ entry.title }}</h1>
+  <h5>{{ entry.date }}</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor. Quis risus sed vulputate odio ut enim. Cursus eget nunc scelerisque viverra mauris in aliquam. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Proin libero nunc consequat interdum varius sit amet mattis. Dui nunc mattis enim ut tellus elementum. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Duis tristique sollicitudin nibh sit amet commodo nulla. Egestas congue quisque egestas diam in arcu cursus.</p>
+
+   <p>Malesuada fames ac turpis egestas sed tempus urna. Ultrices eros in cursus turpis massa tincidunt. Scelerisque in dictum non consectetur. Morbi tincidunt ornare massa eget egestas. Ornare lectus sit amet est placerat in egestas. Vivamus at augue eget arcu dictum varius duis at. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Mattis molestie a iaculis at erat pellentesque. Augue lacus viverra vitae congue eu consequat ac felis. Maecenas volutpat blandit aliquam etiam. Pretium vulputate sapien nec sagittis aliquam.</p>
+
+   <p>Neque laoreet suspendisse interdum consectetur. Adipiscing bibendum est ultricies integer quis auctor. Vitae suscipit tellus mauris a diam. Donec ultrices tincidunt arcu non sodales neque sodales ut. Eget nulla facilisi etiam dignissim diam quis. A diam sollicitudin tempor id eu nisl. Augue lacus viverra vitae congue eu consequat ac felis. Commodo nulla facilisi nullam vehicula ipsum a arcu. Libero justo laoreet sit amet cursus sit. Tincidunt vitae semper quis lectus nulla. Viverra mauris in aliquam sem fringilla. Tempor id eu nisl nunc. Nisi est sit amet facilisis magna etiam tempor orci eu. Leo a diam sollicitudin tempor id eu. Eget nullam non nisi est sit amet facilisis magna etiam. Aliquam etiam erat velit scelerisque in dictum. Imperdiet proin fermentum leo vel. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Lobortis mattis aliquam faucibus purus in. At varius vel pharetra vel turpis nunc eget lorem.</p>
+
+   <p>Nibh sit amet commodo nulla facilisi nullam vehicula. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod. Mattis aliquam faucibus purus in. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Leo in vitae turpis massa sed elementum tempus egestas. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Amet risus nullam eget felis eget nunc. Et netus et malesuada fames. Velit sed ullamcorper morbi tincidunt ornare massa. Quisque id diam vel quam elementum pulvinar etiam non quam. Viverra orci sagittis eu volutpat odio. Cursus sit amet dictum sit amet justo donec. Eu facilisis sed odio morbi quis. Ipsum dolor sit amet consectetur adipiscing elit pellentesque. Condimentum vitae sapien pellentesque habitant. Tincidunt augue interdum velit euismod in pellentesque massa placerat. Ultricies leo integer malesuada nunc vel risus commodo. Sed egestas egestas fringilla phasellus. Libero enim sed faucibus turpis in eu mi.</p>
+{% endblock %}
